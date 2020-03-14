@@ -21,9 +21,14 @@ func main() {
 	// greeting := "Hi there!"
 	// fmt.Println([]byte(greeting))
 
-	cards := newDeck()
+	// save to file
+	//cards := newDeck()
 	// fmt.Println(cards.toString())
-	cards.saveTofile("my_cards")
+	//cards.saveTofile("my_cards")
+
+	// read from file
+	cards := newDeckFromFile("my_cards")
+	cards.print()
 }
 
 func newCard() string {
