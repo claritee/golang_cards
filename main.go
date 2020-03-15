@@ -24,7 +24,7 @@ func main() {
 	// save to file
 	//cards := newDeck()
 	// fmt.Println(cards.toString())
-	//cards.saveTofile("my_cards")
+	//cards.saveToFile("my_cards")
 
 	// read from file
 	// cards := newDeckFromFile("my_cards")
